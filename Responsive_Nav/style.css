@@ -1,16 +1,14 @@
-body, ul {
-    margin: 0;
+nav {
+    background-color:aquamarine;
 }
+/* homepage Styling*/
+.imgs{url?sa=i&url=https%3A%2F%2Fwww.vogue.com%2Farticle%2Fthe-most-iconic-cafes-in-paris&psig=AOvVaw076Vj1E5p170VajSFqHwaZ&ust=1680285523697000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiUp8KdhP4CFQAAAAAdAAAAABAD
 
-ul li{
-    display:inline;
+    display:flex;
+    justify-content: center;
+    margin: 3rem;
+    gap: 20px;
 }
-
-nav{
-    background-color: lightblue
-    padding:  20px;
-    text-align:center
-    ul{
-        padding-left:0;
-    }
+.imgs img{
+    width: 30%object-fit: cover
 }
