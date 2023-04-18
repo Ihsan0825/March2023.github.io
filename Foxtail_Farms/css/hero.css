@@ -1,0 +1,12 @@
+@import url("https://unsplash.com/photos/XP-b7U3dVX8");
+
+.site-hero {
+ background-image: url("assets/portfolio/roman-grachev-XP-b7U3dVX8-unsplash.jpg");
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 80vh; 
+display: flex;
+justify-content: center;
+}
