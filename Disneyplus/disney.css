@@ -5,9 +5,10 @@
     Letter-spacing: 1px;
 }
 
-body{
+body,nav,footer{
+    background-color: #000
+};
     margin:0;
-}
 
 h1{
     font-family:GraphikSemiBold;
