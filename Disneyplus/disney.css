@@ -1,0 +1,66 @@
+/*General Styling*/
+
+* {
+  font-family: Graphik;
+    Letter-spacing: 1px;
+}
+
+body{
+    margin:0;
+}
+
+h1{
+    font-family:GraphikSemiBold;
+}
+
+h5{
+    color:#000;
+    font-family:GraphikMedium;
+}
+
+/*fonts*/
+@font-face {
+    font-family: Graphik;
+    src: url(Hulu-images/GraphikMediumItalic.otf);
+}
+@font-face {
+    font-family: GraphikLight;
+    src: url(Hulu-images/GraphikSemibold.otf);
+}
+@font-face {
+    font-family: GraphikMedium;
+    src: url(Hulu-images/GraphikBlackItalic.otf);
+}
+
+/*Header Styling*/
+
+header {
+    background:radial-gradient(rgba)225, 225, 225, 0.05, rgba(0, 0, 0, 0.664),url("Hulu-images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50vh;
+}
+
+#bundle{
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50vh;
+}
+
+#bundle img{
+height:8vh;
+}
+
+form input[ type=submit] {
+    background-color: #00ED82;
+    border: none;
+    font-family: 
+
+}
+
