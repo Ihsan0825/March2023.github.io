@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="icon" href="./assets/branding/first_code.svg">
+    <!-- Site tyle, do not edit style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Hero styling, edit this one. -->
+    <link rel="stylesheet" href="./css/hero.css">
+    <title>Hulu-images</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+        <!--Navbar-->
+        </nav>
+ <!--Main Hulu Logo
+    --><img src= "Hulu-images/Hulu-Green-digital.svg"
+    alt="Hulu-Green-digital">
+        <div id="gallery">
+    <img src= "Hulu-images/hulu-bg.jpeg"
+            alt="Hulu-Green-digital">
+            <!-- Login Button-->
+            </button>
+        </nav>
+        <section id='bundle'>
+            <h5><Disney Bundle DUO BASIC</h5>
+
+
+            </disney-hulu></h5>
+        </section>
+        <div id="gallery">
+            <img src= "Hulu-images/hulu disney.png"
+                    alt="Hulu-Green-digital">
+                    <!-- Login Button-->
+                    <button>LOG IN</button>
+                </nav>
+                <section id='bundle'>
+                    <h5><disney-hulu>
+        
+                    </disney-hulu></h5>
+                </section>
+      </ul>
+      <div class="nav-contact">
+        <ion-icon name="call-outline"></ion-icon> <p></p>
+      </div>
+    </nav>
+    <section>
+      <!-- HERO CSS GOES HERE -->
+      
+    </section>
+    <!-- DAY 1 STOP HERE -->
+    <main>
+
+    <!-- General content cards: -->
+    
+    <div id="gallery">
+      <img src="Hulu-images/handmaidstale.jpeg"
+      alt="handmaidstale">
+      <img src="Hulu-images/houseofdragon.jpeg"
+      alt="houseofdragon">
+      <img src="Hulu-images/bobsburgers.jpeg"
+      alt="bobsburgers">
+      <img src="Hulu-images/prey.jpeg"
+      alt="prey">
+   <!--form-->
+   <form action="https://getform.io/f/76fe6a3e-1be2-4c65-a208-1d4a5f941b2e"
+   method='POST'>
+<input type="email" name="email" id="email" placeholder="Email">
+<input type="submit" value="SIGN UP">
+<br>
+<a href="#>"Terms Apply</a>
+<br>
+<br>
+<a href="#">SIGN UP FOR HULU</a>
+
+  
+
+   
+      
+  
