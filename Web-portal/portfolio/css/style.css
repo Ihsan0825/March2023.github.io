@@ -1,6 +1,6 @@
 /* Imports */
 @import url('http://127.0.0.1:3000/Boosttrap_template/index.html');
-@import url(http://127.0.0.1:3000/Boosttrap_template/index.html');
+@import url('http://127.0.0.1:3000/Boosttrap_template/index.html');
 @import url('http://127.0.0.1:3000/Boosttrap_template/index.html');
 
 /*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
@@ -217,4 +217,72 @@ footer h4 {
   margin-bottom: 0px;
   font-family: "Bebas Neue";
   font-weight: bold;
+}
+#projects-head {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 4rem;
+}
+.projects-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.projects-gallery .card {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: calc(33% - 25px);
+    height: 60vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    color: white;
+}
+.projects-gallery .card:nth-of-type(2) {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-2.jpg);
+}
+.projects-gallery .card:nth-of-type(3) {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-3.jpg);
+}
+.projects-gallery .card:nth-of-type(4) {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-4.jpg);
+}
+.projects-gallery .card:nth-of-type(5) {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-5.jpg);
+}
+.projects-gallery .card:nth-of-type(6) {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%), url(../images/project-6.jpg);
+}
+.projects-gallery .card:hover {
+    background: linear-gradient(0deg, rgba(100,75,80,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%)
+}
+.projects-gallery .card img {
+    width: 2rem;
+}
+.projects-gallery .card h2 {
+    padding: 1.25rem 0 0 1.25rem;
+    font-size: 2.5rem;
+}
+.projects-gallery .card a, .projects-gallery .card a:visited {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+}
+.projects-gallery .card a img {
+    filter: invert(96%) sepia(0%) saturate(7456%) hue-rotate(100deg) brightness(110%) contrast(101%);
+}
+.projects-gallery .card a:hover {
+    color: lightpink;
+}
+.projects-gallery .card a:hover img {
+    filter: invert(76%) sepia(24%) saturate(667%) hue-rotate(306deg) brightness(99%) contrast(113%);
 }
